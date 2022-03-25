@@ -118,7 +118,7 @@ nav h3 {
 #h5:hover ~ #chapter5 {
   display: block;
   top: 300px;
-  left: 650px;
+  left: -650px;
 }
 #capt_img6 {
   position: absolute;
