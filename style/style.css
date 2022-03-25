@@ -4,12 +4,21 @@
 }
 header {
   height: 40px;
+  display: flex;
+  margin-left: 5em;
+  justify-content: center;
+  align-items: center;
 }
+header img {
+  height: 32px;
+}
+
 main {
   background-image: url(../image/pc-3.png);
   background-repeat: no-repeat;
   width: 100%;
   height: 1280px;
+  background-color: #0066cc;
 }
 
 nav img {
@@ -309,4 +318,24 @@ nav h3 {
   display: block;
   top: 90px;
   left: -650px;
+}
+footer,
+footer ul,
+footer ul li {
+  text-decoration: none;
+  display: flex;
+}
+footer h2 {
+  display: flex;
+  justify-content: center;
+}
+footer {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2em auto;
+  background-color: #34669a;
+  height: 42px;
+}
+footer ul li {
+  margin-left: 16px;
 }
